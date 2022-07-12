@@ -11,13 +11,10 @@ public class Exercicio3 {
 			int[][] N2 = new int[4][6];
 			int[][] M1 = new int[4][6];
 			int[][] M2 = new int[4][6];
-			int somaN1 = 0, somaN2 = 0;
-			
 			System.out.println("Digite os valores da matriz N1: ");
 			for(int l = 0; l <= 3; l++) {
 				for(int c = 0; c <= 5; c++) {
 					N1[l][c] = input.nextInt();
-					somaN1 += N1[l][c];
 				}
 			}
 			
@@ -25,7 +22,6 @@ public class Exercicio3 {
 			for(int l = 0; l <= 3; l++) {
 				for(int c = 0; c <= 5; c++) {
 					N2[l][c] = input.nextInt();
-					somaN2 += N2[l][c];
 				}
 			}
 			
