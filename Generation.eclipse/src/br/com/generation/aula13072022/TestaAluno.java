@@ -1,39 +1,21 @@
 package br.com.generation.aula13072022;
 
 public class TestaAluno {
-	
-	//Caracterisiticas... variaveis... atributos de classe
-	private int idade;
-	private String nome;
-	private String curso;	
-	
-	//getters e setters --> servi�os que me auxilia no acesso e na modifica��o dos daods
-	public int getIdade() {
-		return idade;
+
+	public static void main(String[] args) {
+		
+		//Estanciar o objeto --> criar o objeto
+		Aluno al1 = new Aluno();
+				
+		al1.setNome("Ingrid");
+		al1.setIdade(22);
+		al1.setCurso("Java - Puro");
+		
+		System.out.println(al1.getNome());
+		System.out.println(al1.getIdade());
+		System.out.println(al1.getCurso());
+		
+
 	}
 
-	public void setIdade(int idade) {
-		this.idade = idade;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-	public String getCurso() {
-		return curso;
-	}
-
-	public void setCurso(String curso) {
-		this.curso = curso;
-	}
-	
-	//A��es... m�todos... fun��es
-	void estudar() {
-		System.out.println("Aluno estudando....");
-	}
 }

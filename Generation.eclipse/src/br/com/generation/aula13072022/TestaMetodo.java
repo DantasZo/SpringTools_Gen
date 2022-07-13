@@ -21,6 +21,7 @@ public class TestaMetodo {
 		metodo04();
 		metodo05(2,8); // --> argumentos
 		System.out.println(MetodoFora.metodo06(numero7, numero8)); //--> argumentos de i e de f
+		entrada.close();
 	}
 	
 	// ---> verbo.. a��o
@@ -49,5 +50,6 @@ public class TestaMetodo {
 		int multiplicacao = numero5 * numero6;
 		System.out.println("Multiplica��o no m�todo05: " + multiplicacao);
 	}
+
 
 }
