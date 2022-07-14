@@ -1,6 +1,6 @@
 package br.com.generation.Exercicios14072022;
 
-public class Cavalo implements Animal {
+public class Cavalo extends ReinoAnimal implements Animal {
 	public void somAnimal(){
 		System.out.println("O som do cavalo é Ihihoho(relinchar)");
 

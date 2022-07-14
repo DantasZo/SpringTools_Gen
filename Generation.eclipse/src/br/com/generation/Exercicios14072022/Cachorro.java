@@ -1,6 +1,6 @@
 package br.com.generation.Exercicios14072022;
 
-public class Cachorro implements Animal {
+public class Cachorro extends ReinoAnimal implements Animal {
 	public void somAnimal(){
 		System.out.println("o som do cachorro é AUAUAUAUAUUAUUAUAU(late)");
 

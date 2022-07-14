@@ -1,6 +1,6 @@
 package br.com.generation.Exercicios14072022;
 
-public class Preguiça implements Animal {
+public class Preguiça extends ReinoAnimal implements Animal {
 	public void somAnimal(){
 		System.out.println("a preguiça Grita(Gruinhe)");
 
